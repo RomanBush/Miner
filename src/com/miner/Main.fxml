@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<SplitPane id="mainPane" dividerPositions="0.15" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+           minWidth="-Infinity" orientation="VERTICAL" prefHeight="290.0" prefWidth="242.0"
+           xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane id="ancPaneUp" minHeight="0.0" minWidth="0.0" prefHeight="40.0" prefWidth="242.0">
+        <Button id="newGameButton" alignment="CENTER" layoutX="81.0" layoutY="8.0" mnemonicParsing="false"
+                text="Новая игра"/>
+    </AnchorPane>
+    <AnchorPane id="ancPaneDown" minHeight="0.0" minWidth="0.0" prefHeight="242.0" prefWidth="242.0">
+        <Canvas id="gameBoard" fx:id="gameBoard" height="240.0" width="240.0"/>
+    </AnchorPane>
+</SplitPane>
