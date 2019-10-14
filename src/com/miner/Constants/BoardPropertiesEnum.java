@@ -1,10 +1,11 @@
-package com.miner;
+package com.miner.Constants;
 
-public enum boardProperties {
+public enum BoardPropertiesEnum {
     width(16), height(16),
     numberOfMines(30);
+
     private final int val;
-    boardProperties(int v) {
+    BoardPropertiesEnum(int v) {
         this.val=v;
     }
     public int get() {
